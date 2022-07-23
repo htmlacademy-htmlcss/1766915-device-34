@@ -9,51 +9,59 @@
     <header>
       <nav class="navigation">
         <a class="logo" href="index.html">
-          <img src="#"
-          width="145"
-          height="36"
-          alt="Логотип Девайс"/>
+          <img src="#" width="145" height="36" alt="Логотип Девайс" />
         </a>
-          <form
-            class="search-form"
-            action="https://echo.htmlacademy.ru/"
-            method="post"
-          >
-          <input type="text" name="Строка поиска" placeholder="Текст поиска">
+        <form
+          class="search-form"
+          action="https://echo.htmlacademy.ru/"
+          method="post"
+        >
+          <input type="text" name="Строка поиска" placeholder="Текст поиска" />
           <button class="search-button" type="submit">Найти</button>
+        </form>
         <ul class="navigation-user">
           <li class="navigation-item">
-            <img class="login-icon"
-            width="13"
-            height="12"
-            alt="Вход в личный кабинет"
-            >
+            <img
+              src=""
+              class="login-icon"
+              width="13"
+              height="12"
+              alt="Вход в личный кабинет"
+            />
             <a class="login-link" href="#">Войти</a>
           </li>
           <li class="navigation-item">
-            <img class="compare-icon"
-            width="10"
-            height="12"
-            alt="Вход в личный кабинет"
-            >
+            <img
+              src=""
+              class="compare-icon"
+              width="10"
+              height="12"
+              alt="Вход в личный кабинет"
+            />
             <a class="compare-link" href="#">Сравнить</a>
           </li>
           <li class="navigation-item">
-            <img class="basket-icon"
-            width="16"
-            height="14"
-            alt="Корзина"
-            >
+            <img
+              src=""
+              class="basket-icon"
+              width="16"
+              height="14"
+              alt="Корзина"
+            />
             <a class="basket" href="#">Корзина</a>
           </li>
-          <button class="catalog-button" type="submit">Каталог</button>
-          <img class="catalog-view"
-          width="50"
-          height="50"
-          alt="Кнопка просмотра разделов каталога"
-          >
         </ul>
         <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="delivery-link" href="#">Каталог товаров</a>
+            <img
+              src=""
+              class="catalog-view"
+              width="50"
+              height="50"
+              alt="Кнопка просмотра разделов каталога"
+            />
+          </li>
           <li class="navigation-item">
             <a class="delivery-link" href="#">Доставка</a>
           </li>
@@ -65,53 +73,69 @@
           </li>
         </ul>
       </nav>
-
-      <main class="main-container">
-        <section class="main-banner">
-          <h1 class="visually-hidden">Магазин Девайс</h1>
-          <span class="number-slider">
-            <p class="number">01</p>
-          </span>
-          <button class="swiper-button-prev" tabindex="0" role="button" aria-label="Предыдущий баннер">
-          </button>
-          <img
-          src=""
-          width="560"
-          height="560"
-          alt="Изображение квадрокоптера"
-          >
-          <button class="swiper-button-next" tabindex="0" role="button" aria-label="Сдедующий баннер">
-          </button>
-          <section class="description-device">
-            <h2 class="description-title">Порхает как бабочка,
-              жалит как пчела!</h2>
-              <p class="description">
-                Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.
-              </p>
-              <span class="detailed-link">
-                <a class="detailed" href="#">Подробнее</a>
-              </span>
-              <span class="navigation-banner-button">
-                <button class="swiper-button" tabindex="0" role="button" aria-label="Переход на 1 баннер">
-                </button>
-                <button class="swiper-button-next" tabindex="0" role="button" aria-label="Переход на второй баннер">
-                </button>
-                <button class="swiper-button-next" tabindex="0" role="button" aria-label="Переход на 3 баннер">
-                </button>
-              </span>
-              <span class="specifications">
-                <dl>
-                  <dt>Дальность полета</dt>
-                  <dd>800 м</dd>
-                </dl>
-                <dl>
-                  <dt>Радиус поражения</dt>
-                  <dd>50 м</dd>
-                </dl>
-              </span>
-          </section>
-        </section>
-      </main>
     </header>
+    <main class="main-container">
+      <section class="main-banner">
+        <h1 class="visually-hidden">Магазин Девайс</h1>
+        <div class="number-slider">
+          <p class="number">01</p>
+        </div>
+        <div
+          class="swiper-button-prev"
+          tabindex="0"
+          role="button"
+          aria-label="Предыдущий баннер"
+        ></div>
+        <img src="" width="560" height="560" alt="Изображение квадрокоптера" />
+        <div
+          class="swiper-button-next"
+          tabindex="0"
+          role="button"
+          aria-label="Сдедующий баннер"
+        ></div>
+        <section class="description-device">
+          <h2 class="description-title">
+            Порхает как бабочка, жалит как пчела!
+          </h2>
+          <p class="description">
+            Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером,
+            замаскированным под стандартную камеру.
+          </p>
+          <span class="detailed-link">
+            <a class="detailed" href="#">Подробнее</a>
+          </span>
+          <div class="navigation-banner-button">
+            <div
+              class="swiper-button"
+              tabindex="0"
+              role="button"
+              aria-label="Переход на 1 баннер"
+            ></div>
+            <div
+              class="swiper-button-next"
+              tabindex="0"
+              role="button"
+              aria-label="Переход на второй баннер"
+            ></div>
+            <div
+              class="swiper-button-next"
+              tabindex="0"
+              role="button"
+              aria-label="Переход на 3 баннер"
+            ></div>
+          </div>
+          <div class="specifications">
+            <dl>
+              <dt>Дальность полета</dt>
+              <dd>800 м</dd>
+            </dl>
+            <dl>
+              <dt>Радиус поражения</dt>
+              <dd>50 м</dd>
+            </dl>
+          </div>
+        </section>
+      </section>
+    </main>
   </body>
 </html>
