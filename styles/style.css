@@ -1,0 +1,15 @@
+.catalog-item:focus-within .subcatalog {
+  display: block;
+}
+
+.subcatalog {
+  display: none;
+}
+
+.slider-button {
+  border: none;
+  cursor: pointer;
+  height: 60px;
+  width: 20px;
+  background-color: black;
+}

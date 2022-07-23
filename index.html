@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
+    <!-- <link rel="stylesheet" href="styles/style.css" /> -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Academy: Девайс</title>
@@ -51,8 +52,8 @@
             <a class="basket" href="#">Корзина</a>
           </li>
         </ul>
-        <ul class="navigation-list">
-          <li class="navigation-item">
+        <ul class="catalog">
+          <li class="catalog-item">
             <a href="#">Каталог товаров</a>
             <img
               src=""
@@ -62,20 +63,20 @@
               alt="Кнопка просмотра разделов каталога"
             />
           </li>
-          <span class="subcatalog">
-            <ul class="first-column">
-              <li class="category-list">Виртуальная реальность</li>
-              <li class="category-list">Моноподы для селфи</li>
-              <li class="category-list">Экшн-камеры</li>
-            </ul>
-            <ul class="first-column">
-              <li class="category-list">Фитнес-браслеты</li>
-              <li class="category-list">Умные часы</li>
-            </ul>
-            <ul class="first-column">
-              <li class="category-list">Квадрокоптеры</li>
-            </ul>
-          </span>
+
+          <ul class="first-column">
+            <li class="category-list">Виртуальная реальность</li>
+            <li class="category-list">Моноподы для селфи</li>
+            <li class="category-list">Экшн-камеры</li>
+          </ul>
+          <ul class="first-column">
+            <li class="category-list">Фитнес-браслеты</li>
+            <li class="category-list">Умные часы</li>
+          </ul>
+          <ul class="first-column">
+            <li class="category-list">Квадрокоптеры</li>
+          </ul>
+
           <li class="navigation-item">
             <a class="delivery-link" href="#">Доставка</a>
           </li>
@@ -90,40 +91,46 @@
     </header>
 
     <main class="main-container">
-      <section class="main-banner">
+      <div class="main-banner">
         <h1 class="visually-hidden">Магазин Девайс</h1>
-        <div
-          class="swiper-button-next"
+        <button
+          class="slider-button next-slider"
           tabindex="0"
           role="button"
           aria-label="Предыдущий баннер"
-        ></div>
-        <div
-          class="swiper-button-prev"
+        ></button>
+        <button
+          class="slider-button prev-slider"
           tabindex="0"
           role="button"
-          aria-label="Предыдущий баннер"
-        ></div>
-        <div class="navigation-banner-button">
-          <div
-            class="swiper-button"
-            tabindex="0"
-            role="button"
-            aria-label="Переход на 1 баннер"
-          ></div>
-          <div
-            class="swiper-button-next"
-            tabindex="0"
-            role="button"
-            aria-label="Переход на второй баннер"
-          ></div>
-          <div
-            class="swiper-button-next"
-            tabindex="0"
-            role="button"
-            aria-label="Переход на 3 баннер"
-          ></div>
-        </div>
+          aria-label="Следующий баннер"
+        ></button>
+        <ol class="slider-pagination">
+          <li class="pagination-item">
+            <button
+              class="slider-pagination-button"
+              tabindex="0"
+              role="button"
+              aria-label="1 баннер"
+            ></button>
+          </li>
+          <li class="pagination-item">
+            <button
+              class="slider-pagination-button"
+              tabindex="0"
+              role="button"
+              aria-label="2 баннер"
+            ></button>
+          </li>
+          <li class="pagination-item">
+            <button
+              class="slider-pagination-button"
+              tabindex="0"
+              role="button"
+              aria-label="3 баннер"
+            ></button>
+          </li>
+        </ol>
         <ul class="banner">
           <li class="banner-image">
             <img
@@ -133,9 +140,9 @@
               alt="Изображение квадрокоптера"
             />
           </li>
-          <span class="number-slider">
+          <div class="number-slider">
             <p class="number">01</p>
-          </span>
+          </div>
           <li class="description-device">
             <h2 class="description-title">
               Порхает как бабочка, жалит как пчела!
@@ -159,7 +166,7 @@
             </dl>
           </li>
         </ul>
-      </section>
+      </div>
 
       <div
         class="swiper-button-next"
@@ -246,7 +253,7 @@
             </p>
           </li>
           <li class="description-image">
-            <img src="" width="136" height="164" alt="Изображение почтальона"
+            <img src="" width="136" height="164" alt="Изображение почтальона" />
           </li>
         </ul>
       </section>
