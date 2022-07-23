@@ -53,7 +53,7 @@
         </ul>
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="delivery-link" href="#">Каталог товаров</a>
+            <a href="#">Каталог товаров</a>
             <img
               src=""
               class="catalog-view"
@@ -62,6 +62,20 @@
               alt="Кнопка просмотра разделов каталога"
             />
           </li>
+          <span class="subcatalog">
+            <ul class="first-column">
+              <li class="category-list">Виртуальная реальность</li>
+              <li class="category-list">Моноподы для селфи</li>
+              <li class="category-list">Экшн-камеры</li>
+            </ul>
+            <ul class="first-column">
+              <li class="category-list">Фитнес-браслеты</li>
+              <li class="category-list">Умные часы</li>
+            </ul>
+            <ul class="first-column">
+              <li class="category-list">Квадрокоптеры</li>
+            </ul>
+          </span>
           <li class="navigation-item">
             <a class="delivery-link" href="#">Доставка</a>
           </li>
@@ -78,46 +92,18 @@
     <main class="main-container">
       <section class="main-banner">
         <h1 class="visually-hidden">Магазин Девайс</h1>
-
+        <div
+          class="swiper-button-next"
+          tabindex="0"
+          role="button"
+          aria-label="Предыдущий баннер"
+        ></div>
         <div
           class="swiper-button-prev"
           tabindex="0"
           role="button"
           aria-label="Предыдущий баннер"
         ></div>
-
-        <ul class="banner">
-          <li class="banner-image">
-            <img
-              src=""
-              width="560"
-              height="560"
-              alt="Изображение квадрокоптера"
-            />
-          </li>
-          <li class="number-slider">
-            <p class="number">01</p>
-          </li>
-          <li class="description-device">
-            <h2 class="description-title">
-              Порхает как бабочка, жалит как пчела!
-            </h2>
-            <p class="description-text">
-              Этот обычный, на первый взгляд, квадрокоптер оснащен мощным
-              лазером, замаскированным под стандартную камеру.
-            </p>
-            <span class="detailed-link">
-              <a class="detailed" href="#">Подробнее</a>
-            </span>
-          </li>
-        </ul>
-        <div
-          class="swiper-button-next"
-          tabindex="0"
-          role="button"
-          aria-label="Сдедующий баннер"
-        ></div>
-
         <div class="navigation-banner-button">
           <div
             class="swiper-button"
@@ -138,17 +124,49 @@
             aria-label="Переход на 3 баннер"
           ></div>
         </div>
-        <div class="specifications">
-          <dl>
-            <dt>Дальность полета</dt>
-            <dd>800 м</dd>
-          </dl>
-          <dl>
-            <dt>Радиус поражения</dt>
-            <dd>50 м</dd>
-          </dl>
-        </div>
+        <ul class="banner">
+          <li class="banner-image">
+            <img
+              src=""
+              width="560"
+              height="560"
+              alt="Изображение квадрокоптера"
+            />
+          </li>
+          <span class="number-slider">
+            <p class="number">01</p>
+          </span>
+          <li class="description-device">
+            <h2 class="description-title">
+              Порхает как бабочка, жалит как пчела!
+            </h2>
+            <p class="description-text">
+              Этот обычный, на первый взгляд, квадрокоптер оснащен мощным
+              лазером, замаскированным под стандартную камеру.
+            </p>
+          </li>
+          <li class="detailed">
+            <a class="detailed-link" href="#">Подробнее</a>
+          </li>
+          <li class="specifications">
+            <dl>
+              <dt>Дальность полета</dt>
+              <dd>800 м</dd>
+            </dl>
+            <dl>
+              <dt>Радиус поражения</dt>
+              <dd>50 м</dd>
+            </dl>
+          </li>
+        </ul>
       </section>
+
+      <div
+        class="swiper-button-next"
+        tabindex="0"
+        role="button"
+        aria-label="Сдедующий баннер"
+      ></div>
       <section class="category">
         <h2 class="visually-hidden">Категории каталога</h2>
         <nav class="catalog-category">
@@ -213,6 +231,24 @@
       </section>
       <section class="information-block">
         <h2 class="visually-hidden">Информационный блок</h2>
+        <ul class="information-list">
+          <li class="detailed-link">Доставка</li>
+          <li class="detailed-link">Гарантия</li>
+          <li class="detailed-link">Кредит</li>
+        </ul>
+        <ul class="description-information">
+          <li class="detailed-description">
+            <h3 class="description-title">Доставка</h3>
+            <p class="description-text">
+              Мы с удовольствием доставим ваш товар прямо к вашему подъезду
+              совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на
+              ваш этаж.
+            </p>
+          </li>
+          <li class="description-image">
+            <img src="" width="136" height="164" alt="Изображение почтальона"
+          </li>
+        </ul>
       </section>
     </main>
   </body>
