@@ -8,8 +8,18 @@
 
 .slider-button {
   border: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
   cursor: pointer;
   height: 60px;
   width: 20px;
-  background-color: black;
+}
+
+.slider-button:hover {
+  background-color: red;
+}
+
+.slider-button:focus {
+  background-color: yellow:
 }
