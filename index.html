@@ -74,69 +74,83 @@
         </ul>
       </nav>
     </header>
+
     <main class="main-container">
       <section class="main-banner">
         <h1 class="visually-hidden">Магазин Девайс</h1>
-        <div class="number-slider">
-          <p class="number">01</p>
-        </div>
+
         <div
           class="swiper-button-prev"
           tabindex="0"
           role="button"
           aria-label="Предыдущий баннер"
         ></div>
-        <img src="" width="560" height="560" alt="Изображение квадрокоптера" />
+
+        <ul class="banner">
+          <li class="banner-image">
+            <img
+              src=""
+              width="560"
+              height="560"
+              alt="Изображение квадрокоптера"
+            />
+          </li>
+          <li class="number-slider">
+            <p class="number">01</p>
+          </li>
+          <li class="description-device">
+            <h2 class="description-title">
+              Порхает как бабочка, жалит как пчела!
+            </h2>
+            <p class="description-text">
+              Этот обычный, на первый взгляд, квадрокоптер оснащен мощным
+              лазером, замаскированным под стандартную камеру.
+            </p>
+            <span class="detailed-link">
+              <a class="detailed" href="#">Подробнее</a>
+            </span>
+          </li>
+        </ul>
         <div
           class="swiper-button-next"
           tabindex="0"
           role="button"
           aria-label="Сдедующий баннер"
         ></div>
-        <section class="description-device">
-          <h2 class="description-title">
-            Порхает как бабочка, жалит как пчела!
-          </h2>
-          <p class="description">
-            Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером,
-            замаскированным под стандартную камеру.
-          </p>
-          <span class="detailed-link">
-            <a class="detailed" href="#">Подробнее</a>
-          </span>
-          <div class="navigation-banner-button">
-            <div
-              class="swiper-button"
-              tabindex="0"
-              role="button"
-              aria-label="Переход на 1 баннер"
-            ></div>
-            <div
-              class="swiper-button-next"
-              tabindex="0"
-              role="button"
-              aria-label="Переход на второй баннер"
-            ></div>
-            <div
-              class="swiper-button-next"
-              tabindex="0"
-              role="button"
-              aria-label="Переход на 3 баннер"
-            ></div>
-          </div>
-          <div class="specifications">
-            <dl>
-              <dt>Дальность полета</dt>
-              <dd>800 м</dd>
-            </dl>
-            <dl>
-              <dt>Радиус поражения</dt>
-              <dd>50 м</dd>
-            </dl>
-          </div>
-        </section>
+
+        <div class="navigation-banner-button">
+          <div
+            class="swiper-button"
+            tabindex="0"
+            role="button"
+            aria-label="Переход на 1 баннер"
+          ></div>
+          <div
+            class="swiper-button-next"
+            tabindex="0"
+            role="button"
+            aria-label="Переход на второй баннер"
+          ></div>
+          <div
+            class="swiper-button-next"
+            tabindex="0"
+            role="button"
+            aria-label="Переход на 3 баннер"
+          ></div>
+        </div>
+        <div class="specifications">
+          <dl>
+            <dt>Дальность полета</dt>
+            <dd>800 м</dd>
+          </dl>
+          <dl>
+            <dt>Радиус поражения</dt>
+            <dd>50 м</dd>
+          </dl>
+        </div>
       </section>
       <section class="category">
+        <h2 class="visually-hidden">Категории каталога</h2>
         <nav class="catalog-category">
           <ul class="catalog-list">
             <li class="catalog-items">
@@ -196,6 +210,9 @@
             </li>
           </ul>
         </nav>
+      </section>
+      <section class="information-block">
+        <h2 class="visually-hidden">Информационный блок</h2>
       </section>
     </main>
   </body>
