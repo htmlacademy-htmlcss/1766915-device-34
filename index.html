@@ -8,6 +8,7 @@
   </head>
   <body>
     <header>
+      <h1 class="visually-hidden">Интеренет-магазин Девайс</h1>
       <nav class="navigation">
         <a class="logo" href="index.html">
           <img src="#" width="145" height="36" alt="Логотип магазина Девайс." />
@@ -173,13 +174,13 @@
         <h2 class="visually-hidden">Услуги компании</h2>
         <ul class="services-item">
           <li class="button detailed-link">
-            <button type="button" href="#" class="services-link detailed-link">Доставка</button>
+            <a href="#" class="services-link detailed-link">Доставка</a>
           </li>
           <li class="button detailed-link">
-            <button type="button" href="#" class="services-link detailed-link">Гарантия</button>
+            <a href="#" class="services-link detailed-link">Гарантия</a>
           </li>
           <li class="button detailed-link">
-            <button type="button" href="#" class="services-link detailed-link">Кредит</button>
+            <a href="#" class="services-link detailed-link">Кредит</a>
           </li>
         </ul>
         <ul class="detailed-information">
@@ -205,39 +206,23 @@
           </li>
         </ul>
       </section>
-
-      <div>
-        <a class="delivery-information" href="#">
-          <span>
-            <img src="" width="125" height="100" alt="Иконка грузовика" />
-          </span>
-          <span class="delivery-advantages"
-            >Доставим редкий товар под заказ</span
-          >
-          <span>
-            <img src="" width="40" height="40" alt="Информационная иконка" />
-          </span>
-        </a>
-      </div>
-
-      <div class="information">
+      <section class="delivery">
+        <a href="#" class="delivery-link">Доставим редкий товар под заказ</a>
+      </section>
+      <div class="information-block">
         <h2 class="visually-hidden">Информация о компании</h2>
         <section class="about-company">
           <h3 class="description-title title">О нас</h3>
-          <p class="description-text">
-            Огромный выбор гаджетов не оставит равнодушным гика, который есть в
-            каждом из нас.
-          </p>
-          <p class="description-text">
-            Мы можем доставить ваш товар в самые отдалённые уголки России
-            транспортными компаниями:
-          </p>
-          <ul class="delivery-company">
-            <li class="company-items">Меловые линии</li>
-            <li class="company-items">СДИК</li>
-            <li class="company-items">ТоксБерри</li>
-          </ul>
-          <a class="detailed-link" href="#">Подробнее о нас</a>
+            <div class="description-text">
+              <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
+              <p>Мы можем доставить ваш товар в самые отдалённые уголки России транспортными компаниями:</p>
+            </div>
+            <ul class="delivery-company">
+              <li class="company-items">Меловые линии</li>
+              <li class="company-items">СДИК</li>
+              <li class="company-items">ТоксБерри</li>
+            </ul>
+            <a class="button detailed-link" href="#">Подробнее</a>
         </section>
         <section class="contacts">
           <h3 class="description-title title">Контакты</h3>
@@ -245,7 +230,7 @@
             Огромный выбор гаджетов не оставит равнодушным гика, который есть в
             каждом из нас.
           </p>
-          <h4 class="contacts-subtitle">Интернет-магазин Девайс</h4>
+          <h3 class="contacts-subtitle">Интернет-магазин Девайс</h4>
           <address class="description-text">
             <p class="contacts-address-text">
               Санкт-Петербург, набережная реки Карповки, 5, литера П.
@@ -254,16 +239,19 @@
               >+7 (812) 812-12-12</a
             >
           </address>
-          <h4 class="contacts-subtitle">Время работы</h4>
-          <ul>
-            <li>пн—пт: с 10:00 до 22:00</li>
-            <li>сб—вс: с 10:00 до 19:00</li>
+          <h3 class="contacts-subtitle">Время работы</h3>
+          <p class="work-time">пн—пт: с 10:00 до 22:00</p>
+          <p class="work-time">сб—вс: с 10:00 до 19:00</p>
           </ul>
           <a class="detailed-link" href="#">Напишите нам</a>
         </section>
       </div>
       <section class="subscription">
-        <h2 class="visually-hidden">Подпишитесь на рассылки></h2>
+        <h2 class="visually-hidden">Подпишитесь на рассылки</h2>
+        <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
+        <label class="visually-hidden" for="mail-input-field"></label>
+        <input class="mail-input-field" id="mail-input-field" type="text" placeholder="Ваш e-mail" required>
+        <button class="button subscribe-button" type="submit">Подписаться</button>
       </section>
     </main>
   </body>
