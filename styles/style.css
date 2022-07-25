@@ -23,3 +23,8 @@
 .slider-button:focus {
   background-color: yellow;
 }
+
+/* .grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+} */
