@@ -9,38 +9,41 @@
   <body>
     <header>
       <h1 class="visually-hidden">Интеренет-магазин Девайс</h1>
+      <a class="logo" href="index.html">
+        <img src="#" width="145" height="36" alt="Логотип магазина Девайс." />
+      </a>
+
       <nav class="navigation">
-        <a class="logo" href="index.html">
-          <img src="#" width="145" height="36" alt="Логотип магазина Девайс." />
-        </a>
-        <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
-          <input type="text" name="Строка поиска" placeholder="Текст поиска" />
-          <button class="search-button" type="submit">Найти</button>
-        </form>
+        <div class="search">
+          <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
+            <input type="text" name="Строка поиска" placeholder="Текст поиска" />
+            <button class="search-button" type="submit">Найти</button>
+          </form>
+        </div>
         <ul class="navigation-user">
           <li class="navigation-item">
             <img
-              src=""
+              src="images/sign_up.svg"
               class="login-icon"
               width="13"
               height="12"
-              alt="Вход в личный кабинет"
+              alt="Войти"
             />
-            <a class="login-link" href="#">Войти</a>
+            <a class="navigation-link" href="#">Войти</a>
           </li>
           <li class="navigation-item">
             <img
-              src=""
+              src="images/compare.svg"
               class="compare-icon"
               width="10"
               height="12"
               alt="Вход в личный кабинет"
             />
-            <a class="compare-link" href="#">Сравнить</a>
+            <a class="navigation-link" href="#">Сравнить</a>
           </li>
           <li class="navigation-item">
-            <img src="" class="basket-icon" width="16" height="14" alt="Корзина"/>
-            <a class="basket" href="#">Корзина</a>
+            <img src="images/basket.svg" class="basket-icon" width="16" height="14" alt="Корзина"/>
+            <a class="navigation-link" href="#">Корзина</a>
           </li>
         </ul>
       </nav>
