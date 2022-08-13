@@ -68,9 +68,11 @@ header {
   width: 1040px;
   margin: 0;
 }
-/* .search {
-  display: flex;
-} */
+.search-form {
+  align-content: center;
+  margin-left: 60px;
+  width: 517px;
+}
 .navigation-user {
   align-items: center;
   align-content: center;
@@ -78,11 +80,17 @@ header {
   flex-wrap: wrap;
   list-style-type: none;
   margin: 0;
+  margin-left: 26px;
+  padding-left: 0;
   text-decoration: none;
+  width: 497px;
 }
 .navigation-link {
   color: #000;
   display: block;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   text-transform: none;
@@ -90,9 +98,18 @@ header {
   padding: 0;
 }
 .navigation-item {
-  align-items: center;
+  display: flex;
+  align-content: center;
+}
+.navigation-item:nth-child(1) {
+  width: 230px;
+  /* margin-right: 150px; */
 }
 
+.icon {
+  margin-top: 9px;
+  margin-right: 12px;
+}
 /* .slider-button {
   border: none;
   background-position: center;
