@@ -65,16 +65,29 @@ header {
   width: 100%;
   height: 300px;
 }
+/* .navigation-menu {
+  margin-top: 15px;
+} */
+.logo {
+  position: relative;
+  left: 60px;
+  right: 0%;
+  top: 4px;
+  bottom: 0%;
+}
 .navigation {
   background: transparent;
   display: flex;
   width: 1045px;
-  height: 45px;
+  height: 40px;
   margin-left: 60px;
-  margin-top: 66px;
+  padding-top: 66px;
+  margin-top: -50px;
 }
 .search-form {
   align-content: center;
+  height: 40px;
+  text-align: center;
   width: 520px;
 }
 input {
@@ -89,10 +102,10 @@ input {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  height: 38px;
+  height: 36px;
   width: 357px;
 }
-button {
+.search-button {
   align-content: center;
   background: transparent;
   border: 2px solid #000000;
@@ -106,7 +119,7 @@ button {
   margin-left: -5px;
   padding-top: 0;
   width: 156px;
-  height: 38px;
+  height: 40px;
 }
 .navigation-user {
   align-items: center;
@@ -149,6 +162,15 @@ button {
   /* margin-top: 9px; */
   margin-right: 11px;
 }
+.catalog {
+  display: flex;
+  /* flex-direction: column; */
+}
+/* .user-menu-list {
+  display: flex;
+  flex-direction: column;
+  align-content: left;
+} */
 /* .slider-button {
   border: none;
   background-position: center;
